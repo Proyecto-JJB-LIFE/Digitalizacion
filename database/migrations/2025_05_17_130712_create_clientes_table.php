@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('nombres');
             $table->string('pri_ape');
             $table->string('seg_ape');
-            $table->string('doc_tip')->unique();
-            $table->string('doc_num' , length:9);
+            $table->string('docu_tip')->unique();
+            $table->string('docu_num' , length:9);
             $table->string('telefono')->nullable();
             $table->string('direccion')->nullable();
             $table->timestamps();

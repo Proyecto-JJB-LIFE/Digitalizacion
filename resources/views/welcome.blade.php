@@ -8,7 +8,7 @@
 <h3>
     <h1>Mi proyecto Inventario</h1>
     <br>
-    <h3><a href="{{ route('cliente.index') }}">Clientes</a></h3>
+    <h3><a href="{{ route('cliente.create') }}">Clientes</a></h3>
     <br>
     <h3><a href="{{ route('producto.index') }}">Productos</a></h3>
 
